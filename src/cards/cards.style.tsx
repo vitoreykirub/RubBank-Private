@@ -8,7 +8,7 @@ export const CardMain = styled.div`
 
     .card__icon {
         display: flex;
-        margin: 0 auto;
+        margin: 15px auto;
         align-items: center;
         justify-content: center;
         font-size: 35px;
@@ -400,17 +400,22 @@ export const Cards = styled.div`
 
 export const Icon1 = styled(FontAwesomeIcon)`
     background: radial-gradient(36.79% 36.79% at 49.06% 50.94%, rgba(182, 132, 246, 0.67) 0%, rgba(112, 34, 210, 0.67) 98.96%);
+    margin: 0 auto;
 `
 
 export const Icon2 = styled(FontAwesomeIcon)`
     background: radial-gradient(50.94% 50.94% at 49.06% 50.94%, #FBFDA4 0%, #FBFF48 99.99%);
+    margin: 0 auto;
 `
 
 export const Icon3 = styled(FontAwesomeIcon)`
     background: radial-gradient(50% 50% at 50% 50%, #B7BEFE 0%, #3246FB 100%);
+    margin: 0 auto;
 `
 
 export const Card1 = styled.div`
+
+    margin: 0 auto; 
 
     h2 {
         margin: 30px auto;
@@ -425,6 +430,7 @@ export const Card1 = styled.div`
 
 export const Card2 = styled.div`
 
+    margin: 0 auto;
     h2 {
         margin: 15px auto 20px;
     }
@@ -432,6 +438,9 @@ export const Card2 = styled.div`
 `
 
 export const Card3 = styled.div`
+
+    margin: 0 auto;
+
 
     h2{
         margin: 15px auto 20px;
