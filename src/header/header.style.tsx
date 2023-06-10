@@ -8,16 +8,12 @@ export const HeaderArea = styled.div`
 
 export const HeaderMain = styled.div`
     width: 100vw;
-    height: 13%;
+    height: 6em;
     position: fixed;
     overflow: hidden;
     background: #DDD8FB;
     z-index: 1;
     border-bottom: 2px solid;
-
-    @media screen and (max-width: 650px) {
-        height: 8%;
-    }
 `;
 
 export const HeaderMenu = styled.div`
@@ -50,13 +46,6 @@ export const List = styled(FontAwesomeIcon)`
         display: block;
         margin: 35px 20px;
     }
-
-    @media screen and (max-width: 650px) {
-
-        font-size: 20px;
-        display: block;
-        margin: 20px 15px;
-    }
     
 `
 
@@ -79,7 +68,7 @@ export const HeaderLogo = styled.div`
         font-size: 24px;
     };
 
-    @media (min-width: 651px) and (max-width: 950px){
+    @media screen and (max-width: 950px){
 
         img {
             width: 60px;
@@ -93,23 +82,6 @@ export const HeaderLogo = styled.div`
 
             font: 'Jost';
             font-size: 24px;
-        };
-    }
-
-    @media screen and (max-width: 650px){
-
-        img {
-            width: 45px;
-            height: 45px;
-            position: relative;
-            left: 10px;
-            bottom: 2px;
-        };
-    
-        p {
-
-            font: 'Jost';
-            font-size: 14px;
         };
     }
 `
@@ -223,7 +195,7 @@ export const HeaderNavBar = styled.div`
         display: flex;
         position: fixed;
         overflow: hidden;
-        margin: 6em auto;
+        margin: 5.9em auto;
 
         z-index: 1;
         top: 0;
@@ -237,11 +209,6 @@ export const HeaderNavBar = styled.div`
             margin-right: 25px;
             font-size: 32px
         }
-    }
-
-    @media screen and (max-width:650px) {
-        margin: 4em auto;
-        height: 100%;
     }
 
 `
@@ -269,6 +236,7 @@ export const HeaderNavBarItem = styled.div`
         }
 
         @media screen and (max-width: 650px) {
+            margin-top: -25em;
 
             gap: 30px;
             a {
