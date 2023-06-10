@@ -8,7 +8,7 @@ export const CardMain = styled.div`
 
     .card__icon {
         display: flex;
-        margin: 15px auto;
+        margin: 0 auto;
         align-items: center;
         justify-content: center;
         font-size: 35px;
@@ -19,7 +19,6 @@ export const CardMain = styled.div`
         border-radius: 35px;
 
         @media screen and (max-width: 1440px) {
-        
             font-size: 30px;
         }
 
