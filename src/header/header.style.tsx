@@ -189,7 +189,7 @@ export const HeaderNavBar = styled.div`
     border-top: 2px solid;
     display: none;
     width: 100vw;
-    height: 113%;
+    height: 60em;
 
     @media screen and (max-width: 950px) {
         display: flex;
