@@ -42,6 +42,8 @@ export const GlobalStyle = createGlobalStyle`
     @media screen and (max-width: 320px) {
       background: linear-gradient(0deg, #C9C1F9 12.17%, #A99BFF 15.46%, #BFB5FF 19.14%, #FFFFFF 21.9%, #FFFFFF 34.25%, #E6C0FD 37.94%, #E5C1FB 49.89%, #FFFFFF 53.6%, #FCFCFD 80.64%, #A79FF3 85.54%, #DAC0FB 100%);
     }
+
+    
   }
 
   a {

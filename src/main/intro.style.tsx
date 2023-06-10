@@ -49,18 +49,18 @@ export const IntroContainer = styled.div`
 `
 
 export const IntroLeft = styled.div`
-
+    width: 80%;
     display: flex;
     flex-direction: column;
 
     position: absolute;
     top: 0;
     left: 0;
-    margin: 50px 50px;
+    margin: 50px;
 
-    @media screen and (max-width: 425px){
+    @media screen and (max-width: 470px){
 
-        margin: 35px 30px;
+        margin: 30px;
     }
 
     @media screen and (max-width: 375px){
@@ -87,6 +87,11 @@ export const IntroTitle = styled.div`
         color: white;
     }
 
+    @media screen and (max-width: 1440px) {
+
+        width: 80%;
+    }
+
     @media screen and (max-width: 1280px){
 
         width: 65%;
@@ -98,7 +103,7 @@ export const IntroTitle = styled.div`
 
     @media screen and (max-width: 1150px){
 
-        width: 60%;
+        width: 75%;
 
         h2 { 
             font-size: 56px;
@@ -168,7 +173,7 @@ export const IntroSubtitle = styled.div`
 
     @media screen and (max-width: 1024px){
 
-        width: 45%;
+        width: 55%;
 
         h1{
             font-size: 32px;
@@ -220,18 +225,19 @@ export const IntroButton = styled.div`
     gap: 30px;
 
     @media screen and (max-width: 768px) {
-
+        width: 400px;
         margin-top: 55px;
     }
 
     @media screen and (max-width: 470px) {
 
+        width: 330px;
         gap: 15px;
         margin-top: 70px;
     }
 
     @media screen and (max-width: 360px) {
-        width: 320px;
+        width: 290px;
         gap: 5px;
         margin-top: 100px;
     }
@@ -284,7 +290,7 @@ export const Button = styled.button`
 
     @media screen and (max-width: 360px) {
 
-        width: 120px;
+        width: 100px;
         height: 45px;
         font-size: 12px;
     }

@@ -8,7 +8,9 @@ export const CardMain = styled.div`
 
     .card__icon {
         display: flex;
-        margin: 15px auto 20px;
+        margin: 15px auto;
+        align-items: center;
+        justify-content: center;
         font-size: 35px;
         padding: 18px;
 

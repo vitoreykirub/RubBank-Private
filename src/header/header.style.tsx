@@ -217,12 +217,12 @@ export const HeaderNavBar = styled.div`
         display: flex;
         position: fixed;
         overflow: hidden;
-        
-        margin-top: 6em;
+        margin: 6em auto;
 
         z-index: 1;
-        gap: 45px;
+        top: 0;
         right: 0;
+        gap: 45px;
 
         background-color:#DDD8FB;
 
