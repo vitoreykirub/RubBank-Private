@@ -14,6 +14,10 @@ export const HeaderMain = styled.div`
     background: #DDD8FB;
     z-index: 1;
     border-bottom: 2px solid;
+
+    @media screen and (max-width: 650px) {
+        height: 8%;
+    }
 `;
 
 export const HeaderMenu = styled.div`
@@ -49,7 +53,9 @@ export const List = styled(FontAwesomeIcon)`
 
     @media screen and (max-width: 650px) {
 
+        font-size: 20px;
         display: block;
+        margin: 20px 15px;
     }
     
 `
@@ -234,6 +240,7 @@ export const HeaderNavBar = styled.div`
     }
 
     @media screen and (max-width:650px) {
+        margin: 4em auto;
         height: 100%;
     }
 
